@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif !important;
+}
+body {
+  margin: 0;
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
+  background-size: 100%;
+  background-image: url("./assets/images/bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root{
+  --nav-bg:rgba(255, 166, 0, 0.408);
+  --primary-bg:#022C43;
+  --orange:rgb(241, 184, 52);
+  --white:white;
+  --half-w:rgba(255, 255, 255, 0.295);
+  --half-b:rgba(4, 3, 3, 0.41);
+  --brown:rgb(158, 53, 53);
+}
